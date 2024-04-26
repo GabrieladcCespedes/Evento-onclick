@@ -4,7 +4,6 @@
 se hace click en el por el texto "Logout" y asi viceversa si el texto del boton 
 es "Logout" se camnbia por "Login" */
 function cambiarText(){
-   /* var text = document.getElementById("btn-login")*/
     if (text.innerText === "Login"){
         text.innerText = "Logout";
     } else{
