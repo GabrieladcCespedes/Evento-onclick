@@ -1,0 +1,67 @@
+<!--Gabriela Céspedes-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onclick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--BARRA DE NAVEGACION-->
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <input type="text" name="search" class="search" placeholder="Search..">
+        <button id="btn-login" onclick="cambiarText()">Login</button>
+    </div>
+    <!--Conteiner contiene a block-1 y block-2-->
+    <div id="conteiner">
+        <!--block-1 contiene a block-a y block-b-->
+        <div id="block-1">
+            <!--block-a contiene al bloque ninja y text-->
+            <div class="block-a">
+                <!---->
+                <div class="ninja">
+                    <h2>Ninja</h2>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p>
+                    <button class="btn-likes" onclick="alertLikes(this)">0 likes</button>
+                </div>
+                <!---->
+                <div class="text"> 
+                    <p>A practitioner skilled in the  </p>
+                    <p><a href="japanese">Japanese</a> art of <a href="ninjutsu">ninjutsu</a></p> 
+                </div>
+            </div>
+            <!--block-b contiene al blolque ninja y text-->
+            <div class="block-b">
+                <!---->
+                <div class="ninja">
+                    <h2>Ninja</h2>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p>
+                    <button class="btn-likes" onclick="alertLikes(this)">0 likes</button>
+                </div>
+                <!---->
+                <div class="text">
+                    <p>A <a href="programmer">programmer</a> who breaks </p>
+                    <p>down problems with <a href="zen">zen</a>-likes </p>
+                    <p>focus</p>
+                    
+                </div>
+            </div>
+        </div>
+        <!--block-2 contiene a block-c -->
+        <div id="block-2">
+            <!--block-c contiene texto y un boton-->
+            <div class="block-c">
+                <div class="text">
+                    <p>Dojonary is</p>
+                    <p>defined by YOU</p>
+                </div>    
+                <button class="btn-definition" onclick="removeBtn(this)">Add Definition</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

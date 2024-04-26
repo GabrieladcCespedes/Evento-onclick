@@ -1,0 +1,55 @@
+/*Gabriela Céspedes*/
+
+/*Se ubican los elementos que estan dentro del bloque nav (barra de navegacion)*/
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    background-color: gray;
+    margin: 20px;
+}
+/*Se define un color azul para el boton login, se define la letra color blanco
+y se crea una sombra de color negro*/
+#btn-login{
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+/*Se crea un borde en la casilla de busqueda*/
+.search{
+    border: 2px solid black;
+}
+/*Centra los bloques block-1 y block-2*/
+#conteiner{
+    display: flex;
+    justify-content: center;
+}
+/*se define un margen a los bloques block-a, block-b y block-c
+y define los bordes de color negro*/
+.block-a, .block-b, .block-c{
+    margin: 10px;
+    border: 2px solid black;
+}
+/*se ubica los bloques ninja y text uno al lado del otro */
+.ninja, .text{
+    display: inline-block;
+    justify-content: center;
+    vertical-align: top;
+    margin: 20px;
+}
+/*se cambia el diseño del boton de likes*/
+.btn-likes{
+    background-color: yellow;
+    box-shadow: 3px 3px black;
+}
+/*Se ubica el boton de bajo del text, se centra la palabra dentro del boton
+se define un color, sombra, margen y tamaño del boton*/
+.btn-definition{
+    display: flex;
+    justify-content: center; /*centra la palabra en la cajita del boton*/
+    background-color: greenyellow;
+    box-shadow: 3px 3px black;
+    width: 200px;
+    margin: 20px;
+}
