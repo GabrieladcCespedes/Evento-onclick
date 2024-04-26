@@ -4,10 +4,11 @@
 se hace click en el por el texto "Logout" y asi viceversa si el texto del boton 
 es "Logout" se camnbia por "Login" */
 function cambiarText(){
-    if (text.innerText === "Login"){
-        text.innerText = "Logout";
+    var text = document.getElementById("btn-login")
+    if (text.innerHTML === "Login"){
+        text.innerHTML = "Logout";
     } else{
-        text.innerText = "Login";
+        text.innerHTML = "Login";
     }
 }
 /*La funcion removeBtn remueve un boton de la pagina al hacer click en el */
